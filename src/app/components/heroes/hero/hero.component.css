@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.container > dl{
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.container > dl > td{
+  font-weight: bolder;
+}

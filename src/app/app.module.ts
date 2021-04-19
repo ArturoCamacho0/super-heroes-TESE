@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeroComponent } from './components/heroes/hero/hero.component';
+import { ListHeroesComponent } from './components/heroes/list-heroes/list-heroes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroComponent
+    HeroComponent,
+    ListHeroesComponent
   ],
   imports: [
     BrowserModule

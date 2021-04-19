@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Listado de superheroes</h2>
+  <ul>
+    <li *ngFor="let hero of heroes">{{ hero }}<button (click)="deleteHero(hero)">Eliminar</button></li>
+  </ul>
+
+  <strong *ngIf="deleted">Se ha eliminado el heroe {{ deleted }}</strong>
+</div>
