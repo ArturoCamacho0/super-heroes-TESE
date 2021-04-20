@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>CONTADOR</h1><br/>
+    <h4>Cambia la cantidad que quieres aumentar!</h4>
+    <input class="input_count" type="number" [(ngModel)]="count" value="{{ count }}"/>
+
+    <br>
+    <p>Presiona los botones para incrementar o decrementar la cantidad.</p>
+    <div class="buttons">
+        <button class="button" (click)="sub()">-{{ count }}</button>
+        <strong>{{ number }}</strong>
+        <button class="button" (click)="sum()">+{{ count }}</button>
+    </div>
+</div>

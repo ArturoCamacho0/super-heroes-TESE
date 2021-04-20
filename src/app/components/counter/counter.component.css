@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input_count{
+    padding: 5px;
+    border: none;
+    background-color: rgb(241, 238, 238);
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    background-color: bisque;
+    width: 45px;
+}
+
+.buttons > strong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover{
+    background-color: tomato;
+}
