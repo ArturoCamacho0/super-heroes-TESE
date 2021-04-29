@@ -1,0 +1,59 @@
+.content{
+    width: 50%;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+}
+
+.button-delete{
+    padding: 5px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.counter{
+    display: flex;
+    gap: 5px;
+}
+
+.button-counter{
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:wheat;
+}
+
+.deleted{
+    background-color: tomato;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}

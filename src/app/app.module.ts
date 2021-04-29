@@ -3,10 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeroModule } from './components/heroes/hero.module';
-import { HeroComponent } from './components/heroes/hero/hero.component';
-import { ListHeroesComponent } from './components/heroes/list-heroes/list-heroes.component';
-import { CounterComponent } from './components/counter/counter.component';
 import { CounterModule } from './components/counter/counter.module';
+import { VillansModule } from './components/villans/villans.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +13,8 @@ import { CounterModule } from './components/counter/counter.module';
   imports: [
     BrowserModule,
     HeroModule,
-    CounterModule
+    CounterModule,
+    VillansModule
   ],
   providers: [],
   bootstrap: [AppComponent]

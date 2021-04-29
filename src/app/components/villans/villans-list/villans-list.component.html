@@ -1,0 +1,25 @@
+<div class="content">
+    <h1>Villanos</h1>
+    <ul class="list">
+        <li *ngFor="let villan of villans">
+            <h3>{{ villan.name }}</h3>
+            
+            <div class="counter">
+                Nivel: 
+                <button (click)="sub(villan.name)" class="button-counter">-</button>
+                <span>{{ villan.level }}</span>
+                <button (click)="sum(villan.name)" class="button-counter">+</button>
+            </div>
+            
+            <button class="button-delete" (click)="deleteHero(villan.name)">Eliminar</button>
+        </li>
+    </ul>
+
+    <div *ngIf="villans.length === 0" class="deleted">
+        No hay villanos.
+    </div>
+
+    <div *ngIf="deleted" class="deleted">
+        El villano <strong>{{ deleted }}</strong> fue eliminado.
+    </div>
+</div>
